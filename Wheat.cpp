@@ -6,7 +6,7 @@
 
 using namespace std;
 
-Wheat::Wheat() {
+Wheat::Wheat(float x1, float x2, float x3) : Crop(x1, x2, x3) {
 	name = "wheat";
 }
 

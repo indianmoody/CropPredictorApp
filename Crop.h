@@ -4,9 +4,11 @@
 
 using namespace std;
 
-string tries();
 
 class Crop {
+
+public: Crop(float x1, float x2, float x3);
+
 	float expPricePerKg;
 	float expYieldPerAcre;
 	float expIncomePerAcre;
@@ -14,7 +16,6 @@ class Crop {
 	float share;
 	string name = "crop";
 
-public: virtual string getName() {
-	return name;
-}
+public: virtual string getName();
+
 };

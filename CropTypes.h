@@ -6,8 +6,10 @@
 using namespace std;
 
 class Wheat: public Crop {
-public: Wheat();
-	string name;
+
+public: Wheat(float x1, float x2, float x3);
+	
+		string name;
 
 public: string getName();
 };

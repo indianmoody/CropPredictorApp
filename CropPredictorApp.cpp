@@ -14,11 +14,10 @@ using namespace std;
 
 int main()
 {
-	Wheat w;
+	Wheat w(21, 23, 25);
 	Crop *c = &w;
 	cout << c->getName()<<endl;
 	cout << w.getName() << endl;
-	cout << tries()<<endl;
     return 0;
 }
 
